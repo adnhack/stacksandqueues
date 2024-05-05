@@ -21,12 +21,14 @@
 Author: Aaron Aceves
 email: aaron.aceves@gmail.com
 
+
 Folder Structure
   - Stack.php ( Class for Stacks )
   - Node.php ( Nodes used in Stacks )
   - Queue.php ( Class for Queues )
   - QueueNode.php ( Nodes used in Queues )
   - rpnCalculator.php ( Implements Stacks to calculate the Reverse Polish Notation )
+
 
 Usage
 
@@ -36,8 +38,6 @@ Usage
   - With Arguments: The script will calculate the given RPN ( Reverse Polish Notation ). The notation should be inside a quotes or single quotes
     - php rpnCalculator.php '6 8 + 2 * 2 /'
 
-Advice
-  - Some basic validations were made, for example only basic arithmetic operators are allowed ( +, -, * and / ), empty values, etc. No other validations were made.
 
 Please Note:
 
@@ -47,6 +47,7 @@ Please Note:
     2.- On the "Programming guidelines" mention to "Use a queue to hold the RPN expressions." and "Use a stack to evaluate a RPN expression.", this was changed to only use Stacks, the reason is:
       Stacks and Queues are types of "lists" to keep values, the differences are Stacks are LIFO (Last In, First Out) and Queues are FIFO (First in, First Out), whit this in mind, doesn't make sense to mix and use Stacks and Queues to only hold values. The RPN process makes more sense to use Stacks with.
     3.- The last part of the requirements are more oriented to a C++ program than PHP ( unless I create a web interface for options ), so I opt for adding arguments to the php script when executed on command line.
+    4.- Some basic validations were made, for example only basic arithmetic operators are allowed ( +, -, * and / ), empty values, etc. No other validations were made.
 
 Thanks again for consider me for the position and I hope these changes to the test, are not that bad :)
 Thanks
